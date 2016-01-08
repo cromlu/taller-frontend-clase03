@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: #f9f9f9;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  color: #212121;
+}
+.display-none{
+  display: none;
+}
+.Header-Main__box {
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  height: auto;
+}
+.Header-Main__Logo {
+  display: inline-block;
+  float: left;
+  padding: 0.7em;
+}
+.Header-Main__Logo a {
+  text-decoration: none;
+  color: #000;
+}
+.Header-Main__Logo a figure {
+  display: inline-block;
+  vertical-align: middle;
+}
+.Header-Main__Logo a h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.Header-Main__Nav-mobile {
+  display: inline-block;
+  float: right;
+}
+.Header-Main__Nav-mobile a {
+  background: #2dcc70;
+  text-decoration: none;
+  display: block;
+  padding: 2em 0.7em;
+  color: #fff;
+}
+.Header-Main__Nav {
+  position: absolute;
+  right: 0;
+  top: 82px;
+}
+.Header-Main__Nav .Nav--list {
+  float: right;
+  width: 250px;
+  background: #2dcc70;
+}
+.Header-Main__Nav .Nav--list .Nav--item {
+  list-style: none;
+}
+.Header-Main__Nav .Nav--list .Nav--item .Nav--link {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 1em;
+}
+.Header-Main__Nav .Nav--list .Nav--item .Nav--link:hover {
+  color: #fff;
+  background: orange;
+}
+.Header-Main__Nav2{
+display: none;
+}
+@media (min-width: 800px) {
+  .Header-Main__Nav-mobile {
+    display: none;
+  }
+  .Header-Main__Nav {
+    display: none;
+  }
+  .Header-Main__Nav2 {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .Header-Main__Nav2 .Nav--list {
+    float: right;
+    width: 80%;
+    background: #f9f9f9;
+  }
+  .Header-Main__Nav2 .Nav--list .Nav--item {
+    list-style: none;
+    display: inline-block;
+  }
+  .Header-Main__Nav2 .Nav--list .Nav--item .Nav--link {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-size: 1.1em;
+    padding: 2em 1em;
+  }
+  .Header-Main__Nav2 .Nav--list .Nav--item .Nav--link:hover {
+    background: #2dcc70;
+    color: #fff;
+  }
+}
+@media (min-width: 1200px) {
+  .Header-Main__Nav-mobile {
+    display: none;
+  }
+  .Header-Main__Nav {
+    display: none;
+  }
+  .Header-Main__Nav2 {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .Header-Main__Nav2 .Nav--list {
+    float: right;
+    width: 50%;
+    background: #f9f9f9;
+  }
+  .Header-Main__Nav2 .Nav--list .Nav--item {
+    list-style: none;
+    display: inline-block;
+  }
+  .Header-Main__Nav2 .Nav--list .Nav--item .Nav--link {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-size: 1.1em;
+    padding: 2em 1em;
+  }
+  .Header-Main__Nav2 .Nav--list .Nav--item .Nav--link:hover {
+    background: #2dcc70;
+    color: #fff;
+  }
+}
+.Portada {
+  background: #4d7b8b;
+  background-image: url("../imagenes/portada.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Portada__box {
+  text-align: center;
+  maring: 0 auto;
+  padding: 3em 0;
+}
+.Portada h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.8em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: rgba(0,0,0,0.5) 0px 0px 10px;
+}
+.Portada a {
+  font-size: 1.5em;
+  text-decoration: none;
+  background: #2dcc70;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  padding: 0.8em;
+  color: #fff;
+}
+.Portada a:hover {
+  background: #2dcc10;
+}
+@media (min-width: 700px) {
+  .Portada__box {
+    padding: 8em 0;
+  }
+  .Portada h2 {
+    font-size: 3em;
+    margin-bottom: 1.5em;
+  }
+  .Portada a {
+    font-size: 2em;
+    padding: 0.8em;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+  }
+}
+.Buscame__box {
+  text-align: center;
+  margin: 0 auto;
+}
+.Buscame__Search-box {
+  padding: 2em;
+}
+.Buscame__Search-box h2 {
+  display: block;
+  font-size: 1.5em;
+}
+.Buscame__Search-box div {
+  display: block;
+}
+.Buscame__Search-box div input[type='text'] {
+  padding: 1em;
+  width: 70%;
+  margin-bottom: 0.7em;
+}
+.Buscame__Search-box div input[type='submit'] {
+  padding: 1em;
+  width: 80%;
+  border: none;
+  background: #ffa500;
+  cursor: pointer;
+  color: #fff;
+}
+.Buscame__Search-box div input[type='submit']:hover {
+  background: #800080;
+  color: #fff;
+}
+.Buscame__pets .pets--item {
+  display: block;
+  width: 100%;
+}
+.Buscame__pets .pets--item figure {
+  margin: 0.6em;
+}
+.Buscame__pets .pets--item figure img {
+  max-width: 100%;
+}
+.Buscame__pets .pets--item h3 {
+  font-size: 1.5em;
+}
+.Buscame__pets .pets--item a {
+  background: #800080;
+  color: #fff;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin: 0.6em;
+}
+@media (min-width: 480px) {
+  .Buscame__Search-box {
+    background: #dcdcdc;
+    margin: 0 auto;
+  }
+  .Buscame__Search-box h2 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2em;
+    width: 40%;
+  }
+  .Buscame__Search-box div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+  }
+  .Buscame__Search-box div input[type='text'] {
+    padding: 1em;
+    width: 40%;
+    margin-bottom: 0.7em;
+  }
+  .Buscame__Search-box div input[type='submit'] {
+    padding: 1em;
+    width: 30%;
+    border: none;
+    background: #ffa500;
+    cursor: pointer;
+    color: #fff;
+  }
+  __pets {
+    padding: 2em 0;
+  }
+  __pets .pets--item {
+    display: inline-block;
+    width: 40%;
+  }
+}
+@media (min-width: 900px) {
+  .Buscame__pets {
+    padding: 2.5em 0;
+  }
+  .Buscame__pets .pets--item {
+    display: inline-block;
+    width: 30%;
+  }
+}
+.Juega {
+  background: #808080;
+  padding: 3em;
+  background-image: url("../imagenes/back-juego.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Juega__box {
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+}
+.Juega__box h3 {
+  font-size: 1.5em;
+  text-shadow: rgba(0,0,0,0.5) 0px 0px 20px;
+}
+.Juega__box h2 {
+  font-size: 2.4em;
+  text-shadow: rgba(0,0,0,0.5) 0px 0px 20px;
+}
+.Footer-Main {
+  background: #0c0c2b;
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+  padding: 2em 0;
+}
+.display-none{
+  display: none;
+}

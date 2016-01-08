@@ -1,0 +1,113 @@
+.Header-Main
+	// background
+	
+	&__box
+		text-align center
+		margin 0 auto
+		// padding 1em 0
+		overflow hidden
+		height auto
+	
+	&__Logo
+		display inline-block
+		float left
+		padding .7em
+		a
+			text-decoration none
+			color black
+			
+			figure
+				display inline-block
+				vertical-align middle
+				img
+				
+			h1
+				display inline-block
+				vertical-align middle
+		
+	&__Nav-mobile
+		display inline-block
+		// display none
+		float right
+		a
+			background #2DCC70
+			text-decoration none
+			display block
+			padding 2em .7em
+			color white
+			
+		
+
+	&__Nav
+		display none
+		// display block
+		overflow hidden
+		.Nav--list
+			float right
+			width 250px
+			background #2DCC70
+			.Nav--item
+				list-style none
+				.Nav--link
+					text-decoration none
+					color white
+					display block
+					padding 1em
+
+
+
+@media (min-width 800px)
+	.Header-Main
+		&__Nav-mobile
+			display none
+		
+		&__Nav
+			display block
+			overflow hidden
+			.Nav--list
+				float right
+				width 80%
+				background #F9F9F9
+				.Nav--item
+					list-style none
+					display inline-block
+					.Nav--link
+						text-decoration none
+						color black
+						display block
+						font-size 1.1em
+						// background orange
+						padding 2em 1em
+						// text-transform uppercase
+						&:hover
+							background #2DCC70
+							color white
+
+				
+
+@media (min-width 1200px)
+	.Header-Main
+		&__Nav-mobile
+			display none
+		
+		&__Nav
+			display block
+			overflow hidden
+			.Nav--list
+				float right
+				width 50%
+				background #F9F9F9
+				.Nav--item
+					list-style none
+					display inline-block
+					.Nav--link
+						text-decoration none
+						color black
+						display block
+						font-size 1.1em
+						// background orange
+						padding 2em 1em
+						// text-transform uppercase
+						&:hover
+							background #2DCC70
+							color white

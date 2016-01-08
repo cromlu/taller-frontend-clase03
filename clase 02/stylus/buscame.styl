@@ -1,0 +1,90 @@
+.Buscame
+	// background red
+	&__box
+		text-align center
+		margin 0 auto
+	&__Search-box
+		// background purple
+		padding 2em
+		h2
+			display block
+			font-size 1.5em
+		div
+			display block
+			
+			input[type='text']
+				padding 1em
+				width 70%
+				margin-bottom .7em
+			input[type='submit']
+				padding 1em
+				width 80%
+				border none
+				background orange
+				cursor pointer
+				color white
+				&:hover
+					background purple
+					color white
+			
+	&__pets
+		// background purple
+		.pets--item
+			display block
+			width 100%
+			figure
+				margin .6em
+				img
+					max-width 100%
+			h3
+				font-size 1.5em
+			a
+				background purple
+				color white
+				border-radius 30px
+				display block
+				padding .5em
+				text-decoration none
+				font-size 1.2em
+				margin .6em
+				
+
+@media (min-width 480px)
+	.Buscame
+		&__Search-box
+			background #DCDCDC
+			margin 0 auto
+			h2
+				display inline-block
+				vertical-align middle
+				font-size 2em
+				width 40%
+				
+			div
+				display inline-block
+				vertical-align middle
+				width 40%
+				input[type='text']
+					padding 1em
+					width 40%
+					margin-bottom .7em
+				input[type='submit']
+					padding 1em
+					width 30%
+					border none
+					background orange
+					cursor pointer
+					color white
+	&__pets
+		padding 2em 0
+		.pets--item
+			display inline-block
+			width 40%
+			
+@media (min-width 900px)
+	.Buscame
+		&__pets
+			padding 2.5em 0
+			.pets--item
+				display inline-block
+				width 30%

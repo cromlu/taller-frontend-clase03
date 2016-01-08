@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<title>MyLittlePet</title>
+	<meta name ="description" content="Las mejores mascotas listas para que les des cariño y amor, adopta una mascota ahora" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/estilos.css">
+	<!-- Favicom-->
+    <link rel="icon" type="image/jpg" href="./imagenes/pet-flat.jpg">
+</head>
+<body>
+	<header class="Header-Main" id="Mi_primer_ID">
+		<div class="Header-Main__box">
+			<article class="Header-Main__Logo">
+				<a href="#">
+					<figure>
+						<img src="./imagenes/mylittlepet.png" alt="mylittlepet"  width="60">
+					</figure>
+					<h1>
+						MyLittlePet
+					</h1>
+				</a>
+			</article>
+			<div class="Header-Main__Nav-mobile" id="box_1">
+				<a id="btn_menu-open" href="#">Menu</a>
+			</div>
+
+			<div class="Header-Main__Nav-mobile  display-none" id="box_2">
+				<a id="btn_menu-close" href="#">Cerrar</a>
+			</div>
+			<!-- Nav mobile -->
+			<nav class="Header-Main__Nav  display-none">
+				<ul class="Nav--list">
+					<li class="Nav--item">
+						<a class="Nav--link" href="#">Video</a>
+					</li>
+					<li class="Nav--item">
+						<a class="Nav--link" href="#">Encuentrame</a>
+					</li>
+					<li class="Nav--item">
+						<a class="Nav--link" href="#">Juquemos</a>
+					</li>
+					<li class="Nav--item">
+						<a class="Nav--link" href="#">Contactos</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- Nav Desktop -->
+			<nav class="Header-Main__Nav2">
+				<ul class="Nav--list">
+					<li class="Nav--item">
+						<a class="Nav--link" href="#">Video</a>
+					</li>
+					<li class="Nav--item">
+						<a class="Nav--link" href="#">Encuentrame</a>
+					</li>
+					<li class="Nav--item">
+						<a class="Nav--link" href="#">Juquemos</a>
+					</li>
+					<li class="Nav--item">
+						<a class="Nav--link" href="#">Contactos</a>
+					</li>
+				</ul>
+			</nav>		
+		</div>
+	</header>
+	<section class="Portada">
+		<div class="Portada__box">
+			<h2>
+				Las mejores mascotas para amar
+			</h2>
+			<a href="#">
+				Encuentrame :3
+			</a>
+		</div>
+	</section>
+	<!-- <section class="Video">
+		<div class="Video__box">
+			<h2>
+				Las mascotas en acción te aman
+			</h2>
+			<article class="Video___Imagen">
+				<figure>
+					<img src="./imagenes/pet-flat.jpg" alt="">
+				</figure>
+			</article>
+			<article class="Video__Video-content">
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/IcbUpBRPZFs" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</article>
+		</div>
+	</section> -->
+	<section class="Buscame"> 
+		<div class="Buscame__box">
+			<section class="Buscame__Search-box">
+				<h2>
+					Encuentra a tu mascota
+				</h2>
+				<div>
+					<!-- <lfile:///C:/Users/joelengt/Desktop/clase02/imagenes/pets/dog.jpgabel for="search">Buscame</label> -->
+					<input type="text" placeholder="Buscame :3">
+					<input type="submit">
+				</div>
+			</section>
+			<section class="Buscame__pets">
+					<article class="pets--item">
+						<figure>
+							<img src="./imagenes/pets/cat.jpg" alt="">
+						</figure>
+						<h3>
+							Gato: Roko
+						</h3>
+						<a href="#">
+							Ver Más
+						</a>
+					</article>
+					<article class="pets--item">
+						<figure>
+							<img src="./imagenes/pets/cat.jpg" alt="">
+						</figure>
+						<h3>
+							Gato: Roko
+						</h3>
+						<a href="#">
+							Ver Más
+						</a>
+					</article>
+					<article class="pets--item">
+						<figure>
+							<img src="./imagenes/pets/cat.jpg" alt="">
+						</figure>
+						<h3>
+							Gato: Roko
+						</h3>
+						<a href="#">
+							Ver Más
+						</a>
+					</article>
+					<article class="pets--item">
+						<figure>
+							<img src="./imagenes/pets/dog.jpg" alt="">
+						</figure>
+						<h3>
+							Gato: Roko
+						</h3>
+						<a href="#">
+							Ver Más
+						</a>
+					</article>
+					<article class="pets--item">
+						<figure>
+							<img src="./imagenes/pets/cat.jpg" alt="">
+						</figure>
+						<h3>
+							Gato: Roko
+						</h3>
+						<a href="#">
+							Ver Más
+						</a>
+					</article>
+					<article class="pets--item">
+						<figure>
+							<img src="./imagenes/pets/dog.jpg" alt="">
+						</figure>
+						<h3>
+							Gato: Roko
+						</h3>
+						<a href="#">
+							Ver Más
+						</a>
+					</article>
+			</section>
+		</div>
+	</section>
+	<section class="Juega">
+		<div class="Juega__box">
+			<h3>
+				Juega, Rie, Ama
+			</h3>
+			<h2>
+				Adopta, El te amará
+			</h2>
+		</div>
+	</section>
+	<h3>
+		Geolocation
+	</h3>
+	<div id ="geo">
+		
+	</div>
+	<div id="cajita">
+		
+	</div>
+	<footer class="Footer-Main">
+		<p>
+			Creado con cariño y amor 2016 | Perros y Gatitos
+		</p>
+	</footer>
+
+<script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+<script src="./js/code.js"></script>
+<script src="./js/ajax.js"></script>	
+<script src="./js/geo.js"></script>
+</body>
+</html>
